@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--Makes the corners of the shape rounded-->
     <corners android:radius="100dp"/>
 
+    <!--Creates the gradient for the shape-->
     <gradient
         android:endColor="#FF9800"
         android:startColor="#0e7e1d"
         android:type="linear" />
 
+    <!--Creates the line around the shape-->
     <stroke
         android:width="3dp"
         android:color="#000000" />

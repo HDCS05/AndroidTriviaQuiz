@@ -18,11 +18,25 @@
         <item name="android:layout_margin">16dp</item>
     </style>
 
+    <!--Style for the line divider-->
     <style name="divider">
-        <item name="android:layout_height">5dp</item>
+        <item name="android:layout_height">3dp</item>
         <item name="android:background">@color/darkgreen</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <!--Style for the Submit Button-->
+    <style name="buttonsubmit">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:background">@drawable/btn</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -72,18 +71,17 @@
             style="@style/divider"
             android:layout_width="match_parent" />
 
+        <!--Button to submit answers-->
         <Button
-            android:id="@+id/Button"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="16dp"
-            android:background="@drawable/btn"
-            android:text="Submit Answers"
-            android:textAllCaps="false"
-            android:textColor="@android:color/white"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:id="@+id/submitButton"
+            style="@style/buttonsubmit"
+            android:text="@string/buttonsubmit" />
+
+        <!--Button to clear answers-->
+        <Button
+            android:id="@+id/clearButton"
+            style="@style/buttonsubmit"
+            android:text="@string/buttonclear" />
 
     </LinearLayout>
 

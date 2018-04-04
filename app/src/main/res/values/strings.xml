@@ -31,4 +31,12 @@
     </string>
     <!--Blogger, Gmail, Snapseed; checkbox-->
 
+    <string name="buttonsubmit">
+        Submit Answers
+    </string>
+
+    <string name="buttonclear">
+        Clear Answers
+    </string>
+
 </resources>
