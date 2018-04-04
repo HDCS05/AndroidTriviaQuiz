@@ -13,6 +13,6 @@
     <!--Creates the line around the shape-->
     <stroke
         android:width="3dp"
-        android:color="#000000" />
+        android:color="#2E8B57" />
 
 </shape>

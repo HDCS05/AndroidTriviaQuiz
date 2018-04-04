@@ -21,7 +21,7 @@
     <!--Style for the line divider-->
     <style name="divider">
         <item name="android:layout_height">3dp</item>
-        <item name="android:background">@color/darkgreen</item>
+        <item name="android:background">@color/seagreen</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginEnd">16dp</item>
     </style>
@@ -37,6 +37,20 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="radiogroup">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+    </style>
+
+    <style name="linearquestion2">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
     </style>
 
 </resources>

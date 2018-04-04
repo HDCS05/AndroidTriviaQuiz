@@ -16,6 +16,35 @@
             style="@style/questions_properties"
             android:text="@string/question1" />
 
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/radiogroup">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/darkred"
+                android:text="LG" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Motorola" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Samsung" />
+        </RadioGroup>
+
         <!--Drawing a line divider-->
         <View
             style="@style/divider"
@@ -25,6 +54,30 @@
         <TextView
             style="@style/questions_properties"
             android:text="@string/question2" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/linearquestion2">
+
+            <TextView
+                android:id="@+id/number_question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="0"
+                android:textColor="@color/darkred"
+                android:textStyle="bold"
+                android:textSize="36sp" />
+
+            <SeekBar
+                android:id="@+id/seekbar_question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100" />
+
+        </LinearLayout>
 
         <!--Drawing a line divider-->
         <View
@@ -76,12 +129,6 @@
             android:id="@+id/submitButton"
             style="@style/buttonsubmit"
             android:text="@string/buttonsubmit" />
-
-        <!--Button to clear answers-->
-        <Button
-            android:id="@+id/clearButton"
-            style="@style/buttonsubmit"
-            android:text="@string/buttonclear" />
 
     </LinearLayout>
 
