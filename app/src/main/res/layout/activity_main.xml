@@ -9,12 +9,79 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+        <!--Question 1-->
         <TextView
-            android:layout_width="wrap_content"
+            style="@style/questions_properties"
+            android:text="@string/question1" />
+
+        <!--Drawing a line divider-->
+        <View
+            style="@style/divider"
+            android:layout_width="match_parent" />
+
+        <!--Question 2-->
+        <TextView
+            style="@style/questions_properties"
+            android:text="@string/question2" />
+
+        <!--Drawing a line divider-->
+        <View
+            style="@style/divider"
+            android:layout_width="match_parent" />
+
+        <!--Question 3-->
+        <TextView
+            style="@style/questions_properties"
+            android:text="@string/question3" />
+
+        <!--Drawing a line divider-->
+        <View
+            style="@style/divider"
+            android:layout_width="match_parent" />
+
+        <!--Question 4-->
+        <TextView
+            style="@style/questions_properties"
+            android:text="@string/question4" />
+
+        <!--Drawing a line divider-->
+        <View
+            style="@style/divider"
+            android:layout_width="match_parent" />
+
+        <!--Question 5-->
+        <TextView
+            style="@style/questions_properties"
+            android:text="@string/question5" />
+
+        <!--Drawing a line divider-->
+        <View
+            style="@style/divider"
+            android:layout_width="match_parent" />
+
+        <!--Question 6-->
+        <TextView
+            style="@style/questions_properties"
+            android:text="@string/question6" />
+
+        <!--Drawing a line divider-->
+        <View
+            style="@style/divider"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn"
+            android:text="Submit Answers"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
