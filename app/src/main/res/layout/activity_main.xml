@@ -72,6 +72,9 @@
         <TextView
             style="@style/questions_properties"
             android:text="@string/question4" />
+        <EditText
+            android:id="@+id/field_question4"
+            style="@style/it_question4"/>
 
         <!--Drawing a line divider-->
         <View style="@style/divider" />
@@ -80,6 +83,18 @@
         <TextView
             style="@style/questions_properties"
             android:text="@string/question5" />
+        <RadioGroup style="@style/radiogroup" >
+            <RadioButton
+                style="@style/radiobutton"
+                android:text="@string/radio_question5a" />
+            <RadioButton
+                android:id="@+id/radioButton5"
+                style="@style/radiobutton"
+                android:text="@string/radio_question5b" />
+            <RadioButton
+                style="@style/radiobutton"
+                android:text="@string/radio_question5c" />
+        </RadioGroup>
 
         <!--Drawing a line divider-->
         <View style="@style/divider" />

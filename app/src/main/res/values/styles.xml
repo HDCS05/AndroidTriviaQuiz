@@ -44,18 +44,18 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
-        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:orientation">vertical</item>
     </style>
 
     <style name="radiobutton">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/darkred</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">8dp</item>
     </style>
 
     <style name="linearquestion2">
@@ -71,6 +71,7 @@
     <style name="tv_question2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">-8dp</item>
         <item name="android:layout_marginBottom">16dp</item>
         <item name="android:textColor">@color/darkred</item>
         <item name="android:textStyle">bold</item>
@@ -90,8 +91,8 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:layout_marginStart">24dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
         <item name="android:orientation">vertical</item>
     </style>
 
@@ -102,6 +103,21 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">16sp</item>
         <item name="android:paddingStart">8dp</item>
+    </style>
+
+    <style name="it_question4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:layout_marginTop">-16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:hint">@string/dessert_name</item>
+        <item name="android:inputType">textCapWords</item>
     </style>
 
 </resources>

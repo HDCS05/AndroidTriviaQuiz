@@ -39,11 +39,23 @@
         4. What was the dessert name for Android version 2.2?
     </string>
     <!--Froyo; free text response-->
+    <string name="dessert_name">
+        Dessert Name
+    </string>
 
     <string name="question5">
         5. When was the initial release date of Android KitKat?
     </string>
     <!--October 31 2013; radio button-->
+    <string name="radio_question5a">
+        10/31/2012
+    </string>
+    <string name="radio_question5b">
+        10/31/2013
+    </string>
+    <string name="radio_question5c">
+        10/31/2014
+    </string>
 
     <string name="question6">
         6. Which of these Android apps are developed by Google?
