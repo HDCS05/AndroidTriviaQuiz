@@ -15,84 +15,58 @@
         <TextView
             style="@style/questions_properties"
             android:text="@string/question1" />
-
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            style="@style/radiogroup">
-
+        <RadioGroup style="@style/radiogroup" >
             <RadioButton
-                android:id="@+id/radioButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/darkred"
-                android:text="LG" />
-
+                style="@style/radiobutton"
+                android:text="@string/radio_question1a" />
             <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Motorola" />
-
+                style="@style/radiobutton"
+                android:text="@string/radio_question1b" />
             <RadioButton
-                android:id="@+id/radioButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Samsung" />
+                android:id="@+id/radioButton1"
+                style="@style/radiobutton"
+                android:text="@string/radio_question1c" />
         </RadioGroup>
 
         <!--Drawing a line divider-->
-        <View
-            style="@style/divider"
-            android:layout_width="match_parent" />
+        <View style="@style/divider" />
 
         <!--Question 2-->
         <TextView
             style="@style/questions_properties"
             android:text="@string/question2" />
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/linearquestion2">
-
+        <LinearLayout style="@style/linearquestion2" >
             <TextView
-                android:id="@+id/number_question2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:text="0"
-                android:textColor="@color/darkred"
-                android:textStyle="bold"
-                android:textSize="36sp" />
-
+                style="@style/tv_question2"
+                android:id="@+id/number_question2" />
             <SeekBar
                 android:id="@+id/seekbar_question2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:max="100" />
-
+                style="@style/sb_question2" />
         </LinearLayout>
 
         <!--Drawing a line divider-->
-        <View
-            style="@style/divider"
-            android:layout_width="match_parent" />
+        <View style="@style/divider" />
 
         <!--Question 3-->
         <TextView
             style="@style/questions_properties"
             android:text="@string/question3" />
+        <LinearLayout style="@style/linearquestion3" >
+            <CheckBox
+                android:id="@+id/checkbox_question3a"
+                style="@style/cb_question3"
+                android:text="@string/cb_question3a" />
+            <CheckBox
+                android:id="@+id/checkbox_question3b"
+                style="@style/cb_question3"
+                android:text="@string/cb_question3b" />
+            <CheckBox
+                style="@style/cb_question3"
+                android:text="@string/cb_question3c" />
+        </LinearLayout>
 
         <!--Drawing a line divider-->
-        <View
-            style="@style/divider"
-            android:layout_width="match_parent" />
+        <View style="@style/divider" />
 
         <!--Question 4-->
         <TextView
@@ -100,9 +74,7 @@
             android:text="@string/question4" />
 
         <!--Drawing a line divider-->
-        <View
-            style="@style/divider"
-            android:layout_width="match_parent" />
+        <View style="@style/divider" />
 
         <!--Question 5-->
         <TextView
@@ -110,9 +82,7 @@
             android:text="@string/question5" />
 
         <!--Drawing a line divider-->
-        <View
-            style="@style/divider"
-            android:layout_width="match_parent" />
+        <View style="@style/divider" />
 
         <!--Question 6-->
         <TextView
@@ -120,9 +90,7 @@
             android:text="@string/question6" />
 
         <!--Drawing a line divider-->
-        <View
-            style="@style/divider"
-            android:layout_width="match_parent" />
+        <View style="@style/divider" />
 
         <!--Button to submit answers-->
         <Button

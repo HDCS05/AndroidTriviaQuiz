@@ -20,6 +20,7 @@
 
     <!--Style for the line divider-->
     <style name="divider">
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">3dp</item>
         <item name="android:background">@color/seagreen</item>
         <item name="android:layout_marginStart">16dp</item>
@@ -40,17 +41,67 @@
     </style>
 
     <style name="radiogroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:layout_marginEnd">32dp</item>
-        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="radiobutton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="linearquestion2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:layout_marginEnd">32dp</item>
-        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="tv_question2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="sb_question2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:max">100</item>
+    </style>
+
+    <style name="linearquestion3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="cb_question3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/darkred</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingStart">8dp</item>
     </style>
 
 </resources>
