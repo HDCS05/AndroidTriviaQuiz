@@ -51,17 +51,17 @@
         <TextView
             style="@style/questions_properties"
             android:text="@string/question3" />
-        <LinearLayout style="@style/linearquestion3" >
+        <LinearLayout style="@style/ll_checkboxes" >
             <CheckBox
                 android:id="@+id/checkbox_question3a"
-                style="@style/cb_question3"
+                style="@style/cb_text"
                 android:text="@string/cb_question3a" />
             <CheckBox
                 android:id="@+id/checkbox_question3b"
-                style="@style/cb_question3"
+                style="@style/cb_text"
                 android:text="@string/cb_question3b" />
             <CheckBox
-                style="@style/cb_question3"
+                style="@style/cb_text"
                 android:text="@string/cb_question3c" />
         </LinearLayout>
 
@@ -103,6 +103,20 @@
         <TextView
             style="@style/questions_properties"
             android:text="@string/question6" />
+        <LinearLayout style="@style/ll_checkboxes" >
+            <CheckBox
+                android:id="@+id/checkbox_question6a"
+                style="@style/cb_text"
+                android:text="@string/cb_question6a" />
+            <CheckBox
+                android:id="@+id/checkbox_question6b"
+                style="@style/cb_text"
+                android:text="@string/cb_question6b" />
+            <CheckBox
+                android:id="@+id/checkbox_question6c"
+                style="@style/cb_text"
+                android:text="@string/cb_question6c" />
+        </LinearLayout>
 
         <!--Drawing a line divider-->
         <View style="@style/divider" />

@@ -40,6 +40,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <!--Style for the radio group-->
     <style name="radiogroup">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -49,6 +50,7 @@
         <item name="android:orientation">vertical</item>
     </style>
 
+    <!--Style for each radio button-->
     <style name="radiobutton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -58,6 +60,7 @@
         <item name="android:paddingStart">8dp</item>
     </style>
 
+    <!--Style for the linear layout of question 2-->
     <style name="linearquestion2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -68,6 +71,7 @@
         <item name="android:orientation">vertical</item>
     </style>
 
+    <!--Style for the textview of question 2-->
     <style name="tv_question2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -79,6 +83,7 @@
         <item name="android:textSize">36sp</item>
     </style>
 
+    <!--Style for the seekbar on question 2-->
     <style name="sb_question2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -87,7 +92,8 @@
         <item name="android:max">100</item>
     </style>
 
-    <style name="linearquestion3">
+    <!--Style for the linear layout of the checkboxes-->
+    <style name="ll_checkboxes">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">16dp</item>
@@ -96,7 +102,8 @@
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="cb_question3">
+    <!--Style for the checkboxes text-->
+    <style name="cb_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/darkred</item>
@@ -105,6 +112,7 @@
         <item name="android:paddingStart">8dp</item>
     </style>
 
+    <!--Style for the input text on question 4-->
     <style name="it_question4">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

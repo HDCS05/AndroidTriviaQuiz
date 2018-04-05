@@ -15,7 +15,6 @@
         Samsung
     </string>
 
-
     <string name="question2">
         2. How many millions did Google pay to acquire Android?
     </string>
@@ -61,13 +60,18 @@
         6. Which of these Android apps are developed by Google?
     </string>
     <!--Blogger, Gmail, Snapseed; checkbox-->
+    <string name="cb_question6a">
+        Blogger
+    </string>
+    <string name="cb_question6b">
+        Gmail
+    </string>
+    <string name="cb_question6c">
+        Snapseed
+    </string>
 
     <string name="buttonsubmit">
         Submit Answers
-    </string>
-
-    <string name="buttonclear">
-        Clear Answers
     </string>
 
 </resources>
