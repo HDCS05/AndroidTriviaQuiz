@@ -15,7 +15,7 @@
         <!--Image at the top of the questionnaire-->
         <ImageView
             style="@style/topimage"
-            android:contentDescription="@string/topimagedescription"
+            android:contentDescription="@string/topImageDescription"
             app:srcCompat="@drawable/android101a" />
 
         <!--Question 1-->

@@ -60,22 +60,22 @@ public class MainActivity extends AppCompatActivity {
         vScore += checkQuestion6();
 
         /*Create the message to display*/
-        String vMessage = "You have " + vScore + " right answers out of 6";
+        String vMessage = getString(R.string.message, vScore);
         if (vScore == 6) {
-            vMessage += "\nCongratulations!";
+            vMessage += "\n" + getString(R.string.congrats);
         } else {
-            vMessage += "\nCheck your answers!";
+            vMessage += "\n" + getString(R.string.checkAgain);
         }
 
-        /*Display the score in a toast message the text will be center aligned in the toast and the screen*/
-        Toast vCenterTextToast = Toast.makeText(getApplicationContext(), vMessage, Toast.LENGTH_SHORT);
-        TextView vTextToCenter = (TextView) vCenterTextToast.getView().findViewById(android.R.id.message);
+        /*Display score in a toast message, text will be center aligned in the toast and screen*/
+        Toast vTextToast = Toast.makeText(getApplicationContext(), vMessage, Toast.LENGTH_LONG);
+        TextView vTextToCenter = (TextView) vTextToast.getView().findViewById(android.R.id.message);
         /*To center the text in the toast*/
         if (vTextToCenter != null) vTextToCenter.setGravity(Gravity.CENTER);
         /*To center the toast on the screen*/
-        vCenterTextToast.setGravity(Gravity.CENTER, 0, 0);
+        vTextToast.setGravity(Gravity.CENTER, 0, 0);
         /*Now we show the toast*/
-        vCenterTextToast.show();
+        vTextToast.show();
 
     }
 
