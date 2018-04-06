@@ -70,6 +70,7 @@
                 style="@style/cb_text"
                 android:text="@string/cb_question3b" />
             <CheckBox
+                android:id="@+id/checkbox_question3c"
                 style="@style/cb_text"
                 android:text="@string/cb_question3c" />
         </LinearLayout>
@@ -92,7 +93,9 @@
         <TextView
             style="@style/questions_properties"
             android:text="@string/question5" />
-        <RadioGroup style="@style/radiogroup" >
+        <RadioGroup
+            style="@style/radiogroup"
+            android:id="@+id/radioGroupQ5" >
             <RadioButton
                 style="@style/radiobutton"
                 android:text="@string/radio_question5a" />
