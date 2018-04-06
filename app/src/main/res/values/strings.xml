@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Android Trivia Quiz</string>
 
+    <string name="topimagedescription">
+        Android Image
+    </string>
+
     <string name="question1">
         1. Before selling out to Google, to whom Android co-founder Andy Rubin tried to sell the operating system?
     </string>

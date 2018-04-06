@@ -15,13 +15,16 @@
         <!--Image at the top of the questionnaire-->
         <ImageView
             style="@style/topimage"
+            android:contentDescription="@string/topimagedescription"
             app:srcCompat="@drawable/android101a" />
 
         <!--Question 1-->
         <TextView
             style="@style/questions_properties"
             android:text="@string/question1" />
-        <RadioGroup style="@style/radiogroup" >
+        <RadioGroup
+            android:id="@+id/radioGroupQ1"
+            style="@style/radiogroup" >
             <RadioButton
                 style="@style/radiobutton"
                 android:text="@string/radio_question1a" />
@@ -29,7 +32,7 @@
                 style="@style/radiobutton"
                 android:text="@string/radio_question1b" />
             <RadioButton
-                android:id="@+id/radioButton1"
+                android:id="@+id/radioButtonQ1"
                 style="@style/radiobutton"
                 android:text="@string/radio_question1c" />
         </RadioGroup>
@@ -94,7 +97,7 @@
                 style="@style/radiobutton"
                 android:text="@string/radio_question5a" />
             <RadioButton
-                android:id="@+id/radioButton5"
+                android:id="@+id/radioButtonQ5"
                 style="@style/radiobutton"
                 android:text="@string/radio_question5b" />
             <RadioButton
@@ -131,7 +134,8 @@
         <Button
             android:id="@+id/submitButton"
             style="@style/buttonsubmit"
-            android:text="@string/buttonsubmit" />
+            android:text="@string/buttonsubmit"
+            android:onClick="submitAnswers" />
 
     </LinearLayout>
 
