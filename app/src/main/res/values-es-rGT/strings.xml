@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">
+        Questionario Trivial Android
+    </string>
+    <string name="question1">
+        1. Antes de venderselo a Google ¿A quien trató el co-fundador de Android, Andy Rubin, de venderle el sistema operativo?
+    </string>
+    <string name="question2">
+        2. ¿Cuántos millones pagó Google para adquirir Android?
+    </string>
+    <string name="question3">
+        3. Estos son nombres de versiones de Android
+    </string>
+    <string name="cb_question3a">
+        Panal, en inglés Honeycomb
+    </string>
+    <string name="cb_question3b">
+        Dona o Rosquilla, en inglés Donut
+    </string>
+    <string name="cb_question3c">
+        Cruasán o Croissant, en inglés Croissant
+    </string>
+    <string name="question4">
+        4. ¿Qué nombre de postre tiene la versión de Android 2.2?
+    </string>
+    <string name="dessert_name">
+        Nombre de postre
+    </string>
+    <string name="question5">
+        5. Cuál fue la fecha de distribución inicial de Android KitKat?
+    </string>
+    <string name="radio_question5a">
+        Octubre 31 2012
+    </string>
+    <string name="radio_question5b">
+        Octubre 31 2013
+    </string>
+    <string name="radio_question5c">
+        Octubre 31 2014
+    </string>
+    <string name="question6">
+        6. ¿Cuales de estas aplicaciones para Android fueron desarrolladas por Google?
+    </string>
+    <string name="buttonsubmit">Enviar Respuestas</string>
+    <string name="congrats">¡Felicitaciones!</string>
+    <string name="checkAgain">¡Revise sus respuestas!</string>
+    <string name="topImageDescription">Imagen de Android</string>
+    <string name="message">
+        Usted tiene<xliff:g example=" 2 " id="rightAnwers"> %d </xliff:g>
+        respuestas correctas de 6
+    </string>
+</resources>
