@@ -81,7 +81,7 @@
     <!-- This string is line 1 of the message to display
     after button "check answers" is pressed -->
     <string name="message">
-        You have<xliff:g example=" 2 " id="rightAnwers"> %d </xliff:g>
+        You have<xliff:g example=" 2 " id="rightAnwers"> %s </xliff:g>
         right answers out of 6
     </string>
 

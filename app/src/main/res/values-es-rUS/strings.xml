@@ -28,7 +28,7 @@
         Nombre de postre
     </string>
     <string name="question5">
-        5. Cuál fue la fecha de distribución inicial de Android KitKat?
+        5. ¿Cuál fue la fecha de distribución inicial de Android KitKat?
     </string>
     <string name="radio_question5a">
         Octubre 31 2012
@@ -47,7 +47,7 @@
     <string name="checkAgain">¡Revise sus respuestas!</string>
     <string name="topImageDescription">Imagen de Android</string>
     <string name="message">
-        Usted tiene<xliff:g example=" 2 " id="rightAnwers"> %d </xliff:g>
+        Usted tiene<xliff:g example=" 2 " id="rightAnwers"> %s </xliff:g>
         respuestas correctas de 6
     </string>
 </resources>

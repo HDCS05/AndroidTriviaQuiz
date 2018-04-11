@@ -52,16 +52,18 @@ public class MainActivity extends AppCompatActivity {
     public void submitAnswers(View view) {
 
         /*Check if the answers are right or not*/
-        int vScore = checkQuestion1();
-        vScore += checkQuestion2();
-        vScore += checkQuestion3();
-        vScore += checkQuestion4();
-        vScore += checkQuestion5();
-        vScore += checkQuestion6();
+        int vRightAnswers = checkQuestion1();
+        vRightAnswers += checkQuestion2();
+        vRightAnswers += checkQuestion3();
+        vRightAnswers += checkQuestion4();
+        vRightAnswers += checkQuestion5();
+        vRightAnswers += checkQuestion6();
+
+        String vRA = Integer.toString(vRightAnswers);
 
         /*Create the message to display*/
-        String vMessage = getString(R.string.message, vScore);
-        if (vScore == 6) {
+        String vMessage = getString(R.string.message, vRA);
+        if (vRightAnswers == 6) {
             vMessage += "\n" + getString(R.string.congrats);
         } else {
             vMessage += "\n" + getString(R.string.checkAgain);
